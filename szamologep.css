@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .calculator {
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUFi-J_RVVa1Yi24YHi3UNzeTcZ8FAjdMOyQ&s") ;
+    background-size:cover;
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid #f80000;
+    border-radius: 10px;
+    width: 300px;
+  }
+  .calculator input[type="text"] {
+    width: 100%;
+    height: 40px;
+    font-size: 1.2em;
+    text-align: right;
+    margin-bottom: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  .buttons button {
+    height: 50px;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  .asd {
+    margin-left:150px;
+    margin-top: 10px;
+    width: 150px;
+    height: 40px;
+  }
